@@ -1,5 +1,93 @@
 # 📈 Backtest Code 
 
+🚀 **Project Objective:** Providing code for stock backtesting and strategy evaluation.
+
+## 🔍 Testing Range
+- Currently Supported: **KOSPI, KOSDAQ**
+- Upcoming: U.S. Stocks (Starting with stocks listed on Toss Securities and expanding thereafter)
+
+## 📊 Strategies
+- Currently Supported: **Minervini, Turtle, RSI**
+- Ongoing: Continuous updates with diverse investment strategies.
+
+## 🗓 Testing Period
+- From **January 1, 2015** to present.
+
+## 📌 Key Indicators (More to come)
+
+### 1. **CAGR (Compound Annual Growth Rate)**
+- Represents the geometric progression ratio.
+- Indicates the annual growth rate over the investment period.
+- Annualizes the total growth rate for the entire investment period.
+
+### 2. **MDD (Maximum Drawdown)**
+- The greatest percentage drop in asset price over a specified time period.
+- Represents how large of a loss an investment strategy can experience.
+- A significant indicator to evaluate the riskiness of an investment.
+
+### 3. **Sharpe Ratio**
+- Measures risk-adjusted return.
+- Indicates how much return an investment strategy has achieved over the risk-free rate.
+- A higher value signifies a better performance relative to the risk taken.
+
+### 4. **Sortino Ratio**
+- Similar to the Sharpe Ratio but considers only the downside volatility.
+- Useful in assessing how well an investment is protected during market downturns.
+
+### 5. **Calmar Ratio**
+- The ratio of CAGR to MDD.
+- Typically used based on the data of the most recent three years.
+- Represents the return of an investment strategy relative to its risk.
+
+### 6. **Alpha** and **Beta**
+- **Alpha**: Represents the excess return of an investment relative to the return of a benchmark.
+- **Beta**: Indicates how volatile an investment is compared to its benchmark.
+
+### 7. **Annual Volatility**
+- Indicates the annual variability of returns.
+- Utilized to assess the riskiness of an investment.
+
+### 8. **Skewness** and **Kurtosis**
+- **Skewness**: Represents the asymmetry of returns distribution. Shows the tilt of distribution.
+- **Kurtosis**: Indicates the peakedness of the returns distribution. A higher value signifies a heavier-tailed distribution.
+
+### 9. **Maximum Drawdown Duration**
+- The duration of the maximum loss.
+- Represents the time taken for an investment to recover post MDD.
+
+### 10. **Win Rate**
+- The percentage of trades that resulted in a win.
+
+### 11. **Average Win** and **Average Loss**
+- Represents the average returns from winning and losing trades, respectively.
+
+### 12. **Profit Factor**
+- The ratio of total profit to total loss.
+- A value greater than 1 indicates an overall profit.
+
+### 13. **Number of Trades**
+- The total number of trades executed during the testing period.
+
+## 🏆 Benchmark (More to come)
+- Default Benchmarks: Choice among **KOSPI, KOSDAQ, S&P 500**.
+
+## 🛠 Additional Settings 
+- **Slippage**: Default at 0.5% (modifiable).
+- **Risk Ratio**: Strategy-specific optimized risk management approach applied.
+
+## 🔗 API Integration and Mock Trading
+- In progress. Refer to [quent_py](https://www.youtube.com/watch?v=PIuxm_9Os54) for details. (Link directs to the respective YouTube channel).
+
+💡 **Note:** This code is designed for backtesting purposes. It's crucial to thoroughly review before applying it directly to real investments. For actual investments, consulting with professionals is recommended.
+
+
+
+
+---
+
+
+# 📈 Backtest Code 
+
 🚀 **프로젝트 목적:** 주식 백테스팅을 위한 코드 제공 및 전략 평가
 
 ## 🔍 테스트 범위
